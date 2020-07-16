@@ -10,13 +10,15 @@ function sumar()
 
 	numero1 = txtIdNumeroUno.value;
 	numero2 = txtIdNumeroDos.value;
-	numero1 = parseint(numero1);
-	numero2 = parseint(numero2);
+	numero1 = parseInt(numero1);
+	numero2 = parseInt(numero2);
 	suma = numero1 + numero2
-
-	alert(suma);
+	alert("La suma es: " + suma);
 	
-	//txtIdNumeroUno
+
+
+
+	//numero1 = document.getElementById("txtIdNumeroUno").value	
 	//txtIdNumeroDos
 }
 
