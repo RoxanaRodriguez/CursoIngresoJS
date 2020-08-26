@@ -21,8 +21,21 @@ function Rectangulo ()
     alert("La cantidad de alambre a comprar es: "+ rectangulo);
 }
 function Circulo () 
-{
-	
+{   var radio;
+    var area;
+    var cantidadAlambre;
+    var cantidadHilos = 3;
+    
+    radio = document.getElementById("txtIdRadio").value;
+    area = Math.PI * 2 * radio;
+    
+    cantidadAlambre = area * cantidadHilos;
+    cantidadAlambre = parseInt(cantidadAlambre);
+    alert("Usted debe comprar " + cantidadAlambre + "m2 de alambre");
+
+
+
+
 }
 function Materiales () 
 {

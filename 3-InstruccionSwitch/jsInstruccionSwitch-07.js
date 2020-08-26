@@ -1,6 +1,24 @@
 function mostrar()
 {
-	var destinoIngresado =txtIdDestino.value;
-	alert(destinoIngresado);
+	var destino = document.getElementById("txtIdDestino").value;
 
-}//FIN DE LA FUNCIÓN
+	switch(destino){
+		case "Bariloche":
+			alert("Oeste");
+			break;
+		case "Mar del plata":
+			alert("Este");
+			break;
+		case "Cataratas":
+			alert("Norte");
+			break;
+		case "Cordoba":
+			alert("Sur");
+			break;
+
+	}
+}
+	/*
+	let destino = document.getElementById("txtIdDestino")
+
+	let destino = txtIdDestino.value*/
